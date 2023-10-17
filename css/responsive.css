@@ -1,0 +1,343 @@
+/* media quary start here */
+@media (min-width: 320px) and (max-width: 480px){
+	/*css start here */
+.navbar a.nav-link {
+    font-size: 11px;
+    padding: 14px 46px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a.nav-link span {
+	display: none;
+}
+.navbar a.dropdown-item {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+	width: 90%;
+}
+.header .toggle-bar .nav-link {
+    font-size: 25px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.header .link {
+    display: flex;
+    position: static;
+    text-align: center;
+    padding: 20px 0px 0px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .link .fa {
+    font-size: 20px;
+}
+.header .link a p strong {
+    font-size: 16px;
+}
+.header .search {
+    padding: 0px 10px;
+    width: 100%;
+}
+.header .search-box{
+	height: 40px;
+}
+.header .search-box .dropdown .defaultoption select.All.Categories {
+    font-size: 11px;
+    line-height: 1.7em;
+    width: 150%;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+}
+.header .search-box .dropdown .defaultoption{
+	width: 55%;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid #eee;
+}
+.header .search-box .dropdown .defaultoption {
+    background: transparent;
+    width: 55%;
+    height: 100%;
+}
+.header .search-box .search-field input {
+    font-size: 12px;
+    line-height: 1.7em;
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px;
+}
+.header .link a {
+    padding: 0px;
+}
+.header .search-box .fa {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+.header .toggle-bar ul.dropdown-menu.show {
+    inset: 0px auto auto 0px !important;
+    margin: 0px;
+    transform: translate3d(-230px, 35px, 0px)!important;
+    width: 275px;
+    padding: 0px 30px;
+}
+.header .toggle-bar a.dropdown-item {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+.slider .cover .item {
+    text-align: center;
+}
+.slider .owl-carousel .item h4 {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.slider .owl-carousel .item h1 {
+    font-size: 22px;
+    line-height: 1.2em;
+}
+.slider .owl-carousel .item button.btn {
+    font-size: 12px;
+    line-height: 1.7em;
+    padding: 5px 15px;
+    margin: 20px 0px 30px;
+}
+.slider .owl-carousel .item i.fa.fa-long-arrow-right {
+    font-size: 12px;
+}
+}
+/*css end here */
+@media (min-width: 481px) and (max-width: 767px) {
+/*css start here */
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+	width: 100%;
+}
+.header .toggle-bar .nav-link {
+    font-size: 30px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.header .link {
+    position: static;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .link .fa {
+    font-size: 30px;
+    margin: 0px 10px 0px 0px;
+}
+.header .link a p strong {
+    font-size: 25px;
+}
+.header .search {
+    padding: 0px 10px;
+    width: 100%;
+}
+.header .search-box {
+    width: 99%;
+    height: 45px;
+}
+.header .search-box .dropdown .defaultoption select.All.Categories {
+    font-size: 11px;
+    line-height: 1.7em;
+    width: 140%;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+}
+.header .search-box .dropdown .defaultoption{
+	width: 55%;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid #eee;
+}
+.header .search-box .dropdown .defaultoption {
+    background: transparent;
+    width: 55%;
+    height: 100%;
+}
+.header .search-box .search-field input {
+    font-size: 12px;
+    line-height: 1.7em;
+    width: 100%;
+    height: 100%;
+}
+.header .search-box .fa {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.header .toggle-bar ul.dropdown-menu.show {
+    inset: 0px auto auto 0px !important;
+    margin: 0px;
+    transform: translate3d(-230px, 35px, 0px)!important;
+    width: 275px;
+    padding: 0px 30px;
+}
+.header .toggle-bar a.dropdown-item {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+.slider .cover .item{
+  	padding: 0px 20px 0px;
+}
+
+.slider .owl-carousel .item h4{
+  	font-size: 16px;
+  	font-weight: 400;
+  	line-height: 1.2em;
+}
+.slider .owl-carousel .item h1{
+  	font-size: 28px;
+  	font-weight: 700;
+  	line-height: 1.2em;
+}
+.slider .owl-carousel .item button.btn {
+    margin: 20px 0px 30px;
+}
+
+
+/*css end here */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/*css start here */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+	width: 100%;
+}
+.header .toggle-bar .nav-link {
+    font-size: 20px;
+    width: 100%;
+    padding: 0px 10px;
+}
+.header .link {
+    position: static;
+    text-align: right;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.header .link a {
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+}
+.header .link .fa {
+    font-size: 20px;
+    margin: 0px;
+}
+.header .link a p strong {
+    font-size: 16px;
+}
+.header .search {
+    padding: 0px 10px;
+    width: 100%;
+}
+.header .search-box {
+    width: 99%;
+    height: 45px;
+}
+.header .search-box .dropdown .defaultoption select.All.Categories {
+    font-size: 13px;
+    line-height: 1.7em;
+    width: 140%;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+}
+.header .search-box .dropdown .defaultoption{
+	width: 55%;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid #eee;
+}
+.header .search-box .dropdown .defaultoption {
+    background: transparent;
+    width: 55%;
+    height: 100%;
+}
+.header .search-box .search-field input {
+    font-size: 14px;
+    line-height: 1.7em;
+    width: 100%;
+    height: 100%;
+}
+.header .search-box .fa {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.header .toggle-bar ul.dropdown-menu.show {
+    inset: 0px auto auto 0px !important;
+    margin: 0px;
+    transform: translate3d(-100px, 48px, 0px)!important;
+    width: 250px;
+    padding: 0px 20px;
+}
+.header .toggle-bar a.dropdown-item {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+
+/*css end here */
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+/*css start here */
+.header .search-box .dropdown .defaultoption select.All.Categories {
+    font-size: 14px;
+    line-height: 1.7em;
+    width: 150%;
+}
+.header .search-box .search-field input {
+    width: 100%;
+}
+.header .link {
+    position: static;
+    text-align: right;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .toggle-bar ul.dropdown-menu.show {
+    inset: 0px auto auto 0px !important;
+    margin: 0px;
+    transform: translate3d(-160px, 62px, 0px)!important;
+    width: 229px;
+    position: absolute;
+    border: 2px solid rgb(13, 110, 253);
+    border-radius: 5px;
+    background: #fff;
+}
+/*css end here */
+}
